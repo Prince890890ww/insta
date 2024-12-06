@@ -1,8 +1,3 @@
-from flask import Flask, request, render_template, jsonify
-from instagrapi import Client
-import os
-import time
-import threading
 
 app = Flask(__name__)
 UPLOAD_FOLDER = "uploads"
